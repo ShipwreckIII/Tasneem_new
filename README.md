@@ -18,3 +18,4 @@ Static bilingual (English / العربية) welcome page.
 
 ## Local preview
 Open `index.html` in a browser, or run `npx serve .`
+just push
