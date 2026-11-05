@@ -148,13 +148,24 @@ html[dir="rtl"] h1 em { font-style: normal; font-weight: 700; }
 .num { font: 600 0.85rem var(--serif); color: var(--accent); }
 .card h2 { font: 600 1.5rem var(--serif); margin: 10px 0 8px; }
 .card p { color: var(--muted); }
-.wa {
-  display: inline-block; margin-top: 14px;
-  color: var(--accent); font-weight: 500; text-decoration: none;
-  font-family: "Inter", system-ui, sans-serif;
-  unicode-bidi: isolate;
+/* contact card — WhatsApp green */
+.card.contact {
+  background: linear-gradient(145deg, #075e54 0%, #128c7e 100%);
+  border-color: transparent;
+  color: #ffffff;
 }
-.wa:hover { text-decoration: underline; }
+.card.contact .num { color: #b9f5d0; }
+.card.contact p { color: rgba(255, 255, 255, 0.85); }
+.wa {
+  display: inline-block; margin-top: 18px;
+  padding: 10px 22px; border-radius: 999px;
+  background: #25d366; color: #073b34;
+  font-weight: 600; text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  transition: transform .15s ease, background .15s ease;
+}
+.wa:hover { background: #ffffff; transform: translateY(-2px); }
+.wa:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; }
 
 .foot {
   padding: 24px clamp(16px, 5vw, 64px);

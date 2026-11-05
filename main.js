@@ -14,6 +14,7 @@
       c2p: "Projects, experiments, and notes — added here as they take shape.",
       c3t: "Contact",
       c3p: "Want to collaborate or just say hi? Message on WhatsApp.",
+      wa: "WhatsApp Me",
       foot: "© {y} Tasneem · Made with care",
       toggle: "العربية",
       title: "Welcome · Tasneem"
@@ -32,6 +33,7 @@
       c2p: "مشاريع وتجارب وملاحظات — تُضاف هنا تباعاً.",
       c3t: "تواصل",
       c3p: "ترغب في التعاون أو إلقاء التحية؟ راسلنا على واتساب.",
+      wa: "راسلني على واتساب",
       foot: "© {y} تسنيم · صُنع بعناية",
       toggle: "English",
       title: "أهلاً · تسنيم"
